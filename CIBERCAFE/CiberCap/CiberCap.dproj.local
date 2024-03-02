@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/04/29 08:43:04.859.dfm,C:\PROYECTOS\CIBERCAFE\Proyecto\Troyano\Uwin.dfm=C:\PROYECTOS\CIBERCAFE\Proyecto\Troyano\Unit1.dfm</Transaction>
+    <Transaction>2011/04/29 08:43:04.859.pas,C:\PROYECTOS\CIBERCAFE\Proyecto\Troyano\Uwin.pas=C:\PROYECTOS\CIBERCAFE\Proyecto\Troyano\Unit1.pas</Transaction>
+    <Transaction>2011/05/03 11:10:55.671.dproj,C:\PROYECTOS\CIBERCAFE\Proyecto\Troyano\winx86.dproj=C:\PROYECTOS\CIBERCAFE\Proyecto\Troyano\win.dproj</Transaction>
+    <Transaction>2012/09/06 14:31:21.000.641,D:\proyects\CiberCap\CiberCap.dproj=D:\proyects\CiberCap\winx86.dproj</Transaction>
+    <Transaction>2012/09/06 14:32:17.000.041,D:\proyects\CiberCap\UCiberCap.dfm=D:\proyects\CiberCap\Uwin.dfm</Transaction>
+    <Transaction>2012/09/06 14:32:17.000.041,D:\proyects\CiberCap\UCiberCap.pas=D:\proyects\CiberCap\Uwin.pas</Transaction>
+    <Transaction>2013/01/30 09:46:46.000.078,=F:\PROYECTOS\CiberCap\Unit1.pas</Transaction>
+    <Transaction>2013/01/30 09:47:12.000.828,F:\PROYECTOS\CiberCap\UnitPantallas.pas=F:\PROYECTOS\CiberCap\Unit1.pas</Transaction>
+    <Transaction>2013/01/30 11:24:31.000.734,F:\PROYECTOS\CiberCap\UnitThreads.pas=F:\PROYECTOS\CiberCap\UnitPantallas.pas</Transaction>
+  </Transactions>
+</BorlandProject>

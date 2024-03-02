@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0D81FCF5-31C9-47D2-8DEE-87F3AEB3407D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CiberCap\CiberCap.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CiberLIG\CiberLig.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CiberDesp\CiberDesp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CiberGest\CiberGest.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CiberCap">
+        <MSBuild Projects="CiberCap\CiberCap.dproj"/>
+    </Target>
+    <Target Name="CiberCap:Clean">
+        <MSBuild Projects="CiberCap\CiberCap.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CiberCap:Make">
+        <MSBuild Projects="CiberCap\CiberCap.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CiberLig">
+        <MSBuild Projects="CiberLIG\CiberLig.dproj"/>
+    </Target>
+    <Target Name="CiberLig:Clean">
+        <MSBuild Projects="CiberLIG\CiberLig.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CiberLig:Make">
+        <MSBuild Projects="CiberLIG\CiberLig.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CiberDesp">
+        <MSBuild Projects="CiberDesp\CiberDesp.dproj"/>
+    </Target>
+    <Target Name="CiberDesp:Clean">
+        <MSBuild Projects="CiberDesp\CiberDesp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CiberDesp:Make">
+        <MSBuild Projects="CiberDesp\CiberDesp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CiberGest">
+        <MSBuild Projects="CiberGest\CiberGest.dproj"/>
+    </Target>
+    <Target Name="CiberGest:Clean">
+        <MSBuild Projects="CiberGest\CiberGest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CiberGest:Make">
+        <MSBuild Projects="CiberGest\CiberGest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CiberCap;CiberLig;CiberDesp;CiberGest"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CiberCap:Clean;CiberLig:Clean;CiberDesp:Clean;CiberGest:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CiberCap:Make;CiberLig:Make;CiberDesp:Make;CiberGest:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

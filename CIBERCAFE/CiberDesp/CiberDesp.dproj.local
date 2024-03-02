@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/08/10 10:10:46.187.dfm,C:\Documents and Settings\Administrador\Mis documentos\RAD Studio\Projects\Unit1.dfm=D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\Umain.dfm</Transaction>
+    <Transaction>2011/08/10 10:10:46.187.pas,C:\Documents and Settings\Administrador\Mis documentos\RAD Studio\Projects\Unit1.pas=D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\Umain.pas</Transaction>
+    <Transaction>2011/08/10 10:10:58.343.dproj,C:\Documents and Settings\Administrador\Mis documentos\RAD Studio\Projects\Project1.dproj=D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\DespachadorCC.dproj</Transaction>
+    <Transaction>2011/08/10 10:12:22.343.pas,D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\Unit1.pas=D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\tareas.pas</Transaction>
+    <Transaction>2011/08/10 10:15:04.593.dfm,D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\Unit1.dfm=D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\Udm.dfm</Transaction>
+    <Transaction>2011/08/10 10:15:04.593.pas,D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\Unit1.pas=D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\Udm.pas</Transaction>
+    <Transaction>2011/09/14 09:14:36.437.dfm,D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\Unit1.dfm=D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\UFrontEnd.dfm</Transaction>
+    <Transaction>2011/09/14 09:14:36.437.pas,D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\Unit1.pas=D:\PROYECTOS\CIBERCAFE\Proyecto\Despachador\UFrontEnd.pas</Transaction>
+    <Transaction>2012/09/06 13:14:57.000.089,D:\proyects\CiberDesp\CiberDesp.dproj=D:\proyects\CiberDesp\DespachadorCC.dproj</Transaction>
+    <Transaction>2012/10/05 12:57:05.000.382,=D:\proyects\CiberDesp\Unit1.pas</Transaction>
+    <Transaction>2012/10/05 12:57:25.000.258,D:\proyects\CiberDesp\Unit1.pas=D:\proyects\CiberDesp\UDM2.pas</Transaction>
+    <Transaction>2012/10/05 12:57:25.000.258,D:\proyects\CiberDesp\Unit1.dfm=D:\proyects\CiberDesp\UDM2.dfm</Transaction>
+    <Transaction>2012/10/05 12:57:33.000.406,D:\proyects\CiberDesp\Udm.dfm=D:\proyects\CiberDesp\UDM1.dfm</Transaction>
+    <Transaction>2012/10/05 12:57:33.000.406,D:\proyects\CiberDesp\Udm.pas=D:\proyects\CiberDesp\UDM1.pas</Transaction>
+    <Transaction>2013/02/01 12:31:52.000.031,F:\PROYECTOS\CiberDesp\UDM2.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

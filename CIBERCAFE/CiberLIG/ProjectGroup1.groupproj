@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{F420F6B9-7CCF-416A-AEF6-A32AFEC5CC7A}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="CiberGestión.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="F:\WORK\Programacion\CiberCafe\Despachador\DespachadorCC.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="CiberGestión">
+			<MSBuild Projects="CiberGestión.dproj"/>
+		</Target>
+		<Target Name="CiberGestión:Clean">
+			<MSBuild Projects="CiberGestión.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="CiberGestión:Make">
+			<MSBuild Projects="CiberGestión.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="DespachadorCC">
+			<MSBuild Projects="F:\WORK\Programacion\CiberCafe\Despachador\DespachadorCC.dproj"/>
+		</Target>
+		<Target Name="DespachadorCC:Clean">
+			<MSBuild Projects="F:\WORK\Programacion\CiberCafe\Despachador\DespachadorCC.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="DespachadorCC:Make">
+			<MSBuild Projects="F:\WORK\Programacion\CiberCafe\Despachador\DespachadorCC.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="CiberGestión;DespachadorCC"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="CiberGestión:Clean;DespachadorCC:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="CiberGestión:Make;DespachadorCC:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>
