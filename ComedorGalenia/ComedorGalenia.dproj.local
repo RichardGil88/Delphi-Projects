@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/08/19 19:18:09.000.281,=C:\Users\Richard\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/20 18:05:05.000.899,=C:\Users\Richard\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/20 18:06:08.000.691,C:\Users\Richard\Documents\Embarcadero\Studio\Projects\ComedorGalenia.dproj=C:\Users\Richard\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/08/20 18:06:58.000.197,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.dfm=C:\Users\Richard\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/08/20 18:06:58.000.197,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas=C:\Users\Richard\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/20 18:07:01.000.381,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\ComedorGalenia.dproj=C:\Users\Richard\Documents\Embarcadero\Studio\Projects\ComedorGalenia.dproj</Transaction>
+    <Transaction>2020/08/20 18:07:15.000.416,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitPrincipal.pas=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/08/20 18:07:15.000.416,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitPrincipal.dfm=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.dfm</Transaction>
+    <Transaction>2020/08/20 18:08:01.000.935,=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/08/20 18:08:37.000.521,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitDataModule1.pas=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/08/20 18:08:37.000.521,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitDataModule1.dfm=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.dfm</Transaction>
+    <Transaction>2020/08/24 23:11:33.000.954,=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/08/24 23:14:21.000.970,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitInsertarRegistro.dfm=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.dfm</Transaction>
+    <Transaction>2020/08/24 23:14:21.000.970,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitInsertarRegistro.pas=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/08/25 04:38:34.000.762,=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/08/25 04:39:31.000.698,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitGenerarReporte.pas</Transaction>
+    <Transaction>2020/08/25 04:39:31.000.698,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.dfm=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitGenerarReporte.dfm</Transaction>
+    <Transaction>2020/08/25 05:12:41.000.408,=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/08/25 05:13:23.000.387,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.dfm=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitRegistrarse.dfm</Transaction>
+    <Transaction>2020/08/25 05:13:23.000.387,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitRegistrarse.pas</Transaction>
+    <Transaction>2020/08/26 18:02:03.000.852,=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/08/26 18:03:04.000.391,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitInsertarUsuario.pas</Transaction>
+    <Transaction>2020/08/26 18:03:04.000.404,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.dfm=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitInsertarUsuario.dfm</Transaction>
+    <Transaction>2020/08/28 22:17:38.000.470,=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/08/28 22:18:43.000.614,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitUsuarios.dfm=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.dfm</Transaction>
+    <Transaction>2020/08/28 22:18:43.000.614,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitUsuarios.pas=C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/09/05 16:19:42.000.162,C:\Users\Richard\Desktop\proyecto yoan\ComedorGalenia\UnitPrincipal.pas=</Transaction>
+    <Transaction>2020/09/05 16:42:54.000.499,=C:\Users\Richard\Desktop\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/09/05 16:43:42.000.084,C:\Users\Richard\Desktop\ComedorGalenia\Unit1.pas=C:\Users\Richard\Desktop\ComedorGalenia\UnitPrincipal.pas</Transaction>
+    <Transaction>2020/09/05 16:43:42.000.084,C:\Users\Richard\Desktop\ComedorGalenia\Unit1.dfm=C:\Users\Richard\Desktop\ComedorGalenia\UnitPrincipal.dfm</Transaction>
+    <Transaction>2020/09/07 20:38:40.000.159,C:\Users\Richard\Desktop\ComedorGalenia\UnitGenerarReporte.pas=</Transaction>
+    <Transaction>2020/10/09 08:31:46.000.182,=D:\Proyectos Mexico\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/10/09 08:32:28.000.723,D:\Proyectos Mexico\ComedorGalenia\UnitEditarUsuario.pas=D:\Proyectos Mexico\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/10/09 08:32:28.000.723,D:\Proyectos Mexico\ComedorGalenia\UnitEditarUsuario.dfm=D:\Proyectos Mexico\ComedorGalenia\Unit1.dfm</Transaction>
+    <Transaction>2020/10/14 13:53:43.000.023,=D:\Proyectos Mexico\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/10/14 13:53:58.000.630,D:\Proyectos Mexico\ComedorGalenia\UnitEliminarUsuario.pas=D:\Proyectos Mexico\ComedorGalenia\Unit1.pas</Transaction>
+    <Transaction>2020/10/14 13:53:58.000.630,D:\Proyectos Mexico\ComedorGalenia\UnitEliminarUsuario.dfm=D:\Proyectos Mexico\ComedorGalenia\Unit1.dfm</Transaction>
+    <Transaction>2020/10/14 13:54:15.000.425,D:\Proyectos Mexico\ComedorGalenia\UnitEliminarUsuarioSistema.dfm=D:\Proyectos Mexico\ComedorGalenia\UnitEliminarUsuario.dfm</Transaction>
+    <Transaction>2020/10/14 13:54:15.000.425,D:\Proyectos Mexico\ComedorGalenia\UnitEliminarUsuarioSistema.pas=D:\Proyectos Mexico\ComedorGalenia\UnitEliminarUsuario.pas</Transaction>
+    <Transaction>2020/10/14 13:55:31.000.806,=D:\Proyectos Mexico\ComedorGalenia\Unit2.pas</Transaction>
+    <Transaction>2020/10/14 13:55:46.000.816,D:\Proyectos Mexico\ComedorGalenia\UnitInsertarUsuarioSistema.dfm=D:\Proyectos Mexico\ComedorGalenia\Unit2.dfm</Transaction>
+    <Transaction>2020/10/14 13:55:46.000.816,D:\Proyectos Mexico\ComedorGalenia\UnitInsertarUsuarioSistema.pas=D:\Proyectos Mexico\ComedorGalenia\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
