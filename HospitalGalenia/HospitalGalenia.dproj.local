@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/08 14:07:38.000.052,D:\Proyectos Mexico\HospitalGalenia\example.dproj=D:\Proyectos Mexico\HospitalGalenia\HospitalGalenia.dproj</Transaction>
+    <Transaction>2021/01/08 21:14:05.000.744,=D:\Proyectos Mexico\HospitalGalenia\Unit1.pas</Transaction>
+    <Transaction>2021/01/08 21:14:27.000.299,D:\Proyectos Mexico\HospitalGalenia\UDm.dfm=D:\Proyectos Mexico\HospitalGalenia\Unit1.dfm</Transaction>
+    <Transaction>2021/01/08 21:14:27.000.299,D:\Proyectos Mexico\HospitalGalenia\UDm.pas=D:\Proyectos Mexico\HospitalGalenia\Unit1.pas</Transaction>
+    <Transaction>2021/01/08 21:15:18.000.849,D:\Proyectos Mexico\HospitalGalenia\Umain.dfm=D:\Proyectos Mexico\HospitalGalenia\main.dfm</Transaction>
+    <Transaction>2021/01/08 21:15:18.000.849,D:\Proyectos Mexico\HospitalGalenia\Umain.pas=D:\Proyectos Mexico\HospitalGalenia\main.pas</Transaction>
+    <Transaction>2021/01/16 12:23:38.000.207,=D:\Proyectos Mexico\HospitalGalenia\Unit2.pas</Transaction>
+    <Transaction>2021/01/16 12:25:20.000.408,D:\Proyectos Mexico\HospitalGalenia\ULogin.dfm=D:\Proyectos Mexico\HospitalGalenia\Unit2.dfm</Transaction>
+    <Transaction>2021/01/16 12:25:20.000.408,D:\Proyectos Mexico\HospitalGalenia\ULogin.pas=D:\Proyectos Mexico\HospitalGalenia\Unit2.pas</Transaction>
+    <Transaction>2021/02/03 08:36:27.000.064,=D:\Proyectos Mexico\HospitalGalenia\Unit1.pas</Transaction>
+    <Transaction>2021/02/03 08:37:02.000.177,D:\Proyectos Mexico\HospitalGalenia\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia\UDMMateriales.pas</Transaction>
+    <Transaction>2021/02/03 08:37:02.000.177,D:\Proyectos Mexico\HospitalGalenia\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia\UDMMateriales.dfm</Transaction>
+    <Transaction>2021/02/03 08:38:50.000.995,=D:\Proyectos Mexico\HospitalGalenia\Unit1.pas</Transaction>
+    <Transaction>2021/02/03 08:39:40.000.732,D:\Proyectos Mexico\HospitalGalenia\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia\UDmMedicamentos.dfm</Transaction>
+    <Transaction>2021/02/03 08:39:40.000.732,D:\Proyectos Mexico\HospitalGalenia\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia\UDmMedicamentos.pas</Transaction>
+    <Transaction>2021/02/16 21:31:50.000.111,=D:\Proyectos Mexico\HospitalGalenia\Unit1.pas</Transaction>
+    <Transaction>2021/02/16 21:32:47.000.233,D:\Proyectos Mexico\HospitalGalenia\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia\UDMServImg.dfm</Transaction>
+    <Transaction>2021/02/16 21:32:47.000.233,D:\Proyectos Mexico\HospitalGalenia\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia\UDMServImg.pas</Transaction>
+    <Transaction>2021/02/18 16:40:00.000.188,=D:\Proyectos Mexico\HospitalGalenia\Unit2.pas</Transaction>
+    <Transaction>2021/02/18 16:40:21.000.193,D:\Proyectos Mexico\HospitalGalenia\Unit2.pas=D:\Proyectos Mexico\HospitalGalenia\UDMServHosp.pas</Transaction>
+    <Transaction>2021/02/18 16:40:21.000.193,D:\Proyectos Mexico\HospitalGalenia\Unit2.dfm=D:\Proyectos Mexico\HospitalGalenia\UDMServHosp.dfm</Transaction>
+    <Transaction>2021/02/18 22:18:14.000.262,=D:\Proyectos Mexico\HospitalGalenia\Unit1.pas</Transaction>
+    <Transaction>2021/02/18 22:18:56.000.645,D:\Proyectos Mexico\HospitalGalenia\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia\UDMEquipoMedico.dfm</Transaction>
+    <Transaction>2021/02/18 22:18:56.000.645,D:\Proyectos Mexico\HospitalGalenia\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia\UDMEquipoMedico.pas</Transaction>
+    <Transaction>2021/02/22 12:09:40.000.041,=D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas</Transaction>
+    <Transaction>2021/02/22 12:10:24.000.233,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMServLab.pas</Transaction>
+    <Transaction>2021/02/22 12:10:24.000.233,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMServLab.dfm</Transaction>
+    <Transaction>2021/02/22 15:10:32.000.638,=D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas</Transaction>
+    <Transaction>2021/02/22 15:11:13.000.274,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMServMed.pas</Transaction>
+    <Transaction>2021/02/22 15:11:13.000.274,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMServMed.dfm</Transaction>
+    <Transaction>2021/02/22 21:43:30.000.267,=D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas</Transaction>
+    <Transaction>2021/02/22 21:43:58.000.332,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMTerInt.pas</Transaction>
+    <Transaction>2021/02/22 21:43:58.000.332,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMTerInt.dfm</Transaction>
+    <Transaction>2021/02/23 10:39:51.000.395,=D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas</Transaction>
+    <Transaction>2021/02/23 10:40:03.000.278,=D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas</Transaction>
+    <Transaction>2021/02/23 10:40:46.000.553,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMTrasAmb.dfm</Transaction>
+    <Transaction>2021/02/23 10:40:46.000.553,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMTrasAmb.pas</Transaction>
+    <Transaction>2021/02/24 12:14:46.000.977,=D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas</Transaction>
+    <Transaction>2021/02/24 12:15:30.000.072,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMCamHiper.dfm</Transaction>
+    <Transaction>2021/02/24 12:15:30.000.072,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMCamHiper.pas</Transaction>
+    <Transaction>2021/02/24 22:02:32.000.543,=D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas</Transaction>
+    <Transaction>2021/02/24 22:03:58.000.154,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMMedNuc.dfm</Transaction>
+    <Transaction>2021/02/24 22:03:58.000.154,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMMedNuc.pas</Transaction>
+    <Transaction>2021/02/25 13:27:25.000.577,=D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas</Transaction>
+    <Transaction>2021/02/25 13:29:42.000.889,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMMembresia.dfm</Transaction>
+    <Transaction>2021/02/25 13:29:42.000.889,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMMembresia.pas</Transaction>
+    <Transaction>2021/02/25 16:44:08.000.135,=D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas</Transaction>
+    <Transaction>2021/02/25 16:47:20.000.960,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMPaquetes.dfm</Transaction>
+    <Transaction>2021/02/25 16:47:20.000.960,D:\Proyectos Mexico\HospitalGalenia sin excel\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia sin excel\UDMPaquetes.pas</Transaction>
+    <Transaction>2021/03/11 12:23:05.000.504,=D:\Proyectos Mexico\HospitalGalenia\Unit1.pas</Transaction>
+    <Transaction>2021/03/11 12:24:00.000.549,D:\Proyectos Mexico\HospitalGalenia\UDMCuenta.dfm=D:\Proyectos Mexico\HospitalGalenia\Unit1.dfm</Transaction>
+    <Transaction>2021/03/11 12:24:00.000.549,D:\Proyectos Mexico\HospitalGalenia\UDMCuenta.pas=D:\Proyectos Mexico\HospitalGalenia\Unit1.pas</Transaction>
+    <Transaction>2021/03/13 10:39:10.000.037,=D:\Proyectos Mexico\HospitalGalenia\Unit1.pas</Transaction>
+    <Transaction>2021/03/13 11:00:19.000.629,D:\Proyectos Mexico\HospitalGalenia\Unit1.dfm=D:\Proyectos Mexico\HospitalGalenia\UReporte.dfm</Transaction>
+    <Transaction>2021/03/13 11:00:19.000.629,D:\Proyectos Mexico\HospitalGalenia\Unit1.pas=D:\Proyectos Mexico\HospitalGalenia\UReporte.pas</Transaction>
+  </Transactions>
+</BorlandProject>
