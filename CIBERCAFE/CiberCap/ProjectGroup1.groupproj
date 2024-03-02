@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{840D3987-904C-4CA3-9358-D38407F17805}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="winx86.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="D:\Proyectos\CiberCafe\Gestion\CiberGestión.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="D:\Proyectos\CiberCafe\Despachador\DespachadorCC.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="winx86">
+			<MSBuild Projects="winx86.dproj"/>
+		</Target>
+		<Target Name="winx86:Clean">
+			<MSBuild Targets="Clean" Projects="winx86.dproj"/>
+		</Target>
+		<Target Name="winx86:Make">
+			<MSBuild Targets="Make" Projects="winx86.dproj"/>
+		</Target>
+		<Target Name="CiberGestión">
+			<MSBuild Projects="D:\Proyectos\CiberCafe\Gestion\CiberGestión.dproj"/>
+		</Target>
+		<Target Name="CiberGestión:Clean">
+			<MSBuild Targets="Clean" Projects="D:\Proyectos\CiberCafe\Gestion\CiberGestión.dproj"/>
+		</Target>
+		<Target Name="CiberGestión:Make">
+			<MSBuild Targets="Make" Projects="D:\Proyectos\CiberCafe\Gestion\CiberGestión.dproj"/>
+		</Target>
+		<Target Name="DespachadorCC">
+			<MSBuild Projects="D:\Proyectos\CiberCafe\Despachador\DespachadorCC.dproj"/>
+		</Target>
+		<Target Name="DespachadorCC:Clean">
+			<MSBuild Targets="Clean" Projects="D:\Proyectos\CiberCafe\Despachador\DespachadorCC.dproj"/>
+		</Target>
+		<Target Name="DespachadorCC:Make">
+			<MSBuild Targets="Make" Projects="D:\Proyectos\CiberCafe\Despachador\DespachadorCC.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="winx86;CiberGestión;DespachadorCC"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="winx86:Clean;CiberGestión:Clean;DespachadorCC:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="winx86:Make;CiberGestión:Make;DespachadorCC:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>
