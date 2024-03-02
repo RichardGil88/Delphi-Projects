@@ -1,0 +1,26 @@
+Convertir un número de segundos a horas, minutos y segundos - Delphi
+Lenguaje de programación Borland Delphi
+
+Esta función en Delphi devuelve las horas, minutos y segundos correspondientes a los segundos pasados como parámetro.
+
+procedure horasMinutosSegundos (numSegundos : integer; var horas, minutos, segundos : integer);
+begin
+  horas := numSegundos div 3600;
+  minutos := numSegundos div 60 mod 60;
+  segundos := numSegundos mod 60;
+end;
+
+Un ejemplo de utilización:
+
+procedure TformMenuPrincipal.actEstadoBateriaExecute(Sender: TObject);
+var
+  horas, minutos, segundos : Integer;
+begin
+  horasMinutosSegundos(segundosRestantes, horas, minutos, segundos);
+  txtTiempo.Text := format('%02d:%02d:%02d', [horas, minutos, segundos])
+end;
+
+
+
+
+

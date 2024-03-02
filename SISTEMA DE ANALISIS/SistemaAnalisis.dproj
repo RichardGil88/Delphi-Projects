@@ -1,0 +1,283 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{83B561A5-0EA0-4008-9AB7-472ECEF70B43}</ProjectGuid>
+			<MainSource>SistemaAnalisis.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<ProjectVersion>13.4</ProjectVersion>
+			<FrameworkType>VCL</FrameworkType>
+			<Base>True</Base>
+			<Platform Condition="'$(Platform)'==''">Win32</Platform>
+			<TargetedPlatforms>1</TargetedPlatforms>
+			<AppType>Application</AppType>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+			<Base_Win64>true</Base_Win64>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+			<Base_Win32>true</Base_Win32>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+			<Cfg_2_Win32>true</Cfg_2_Win32>
+			<CfgParent>Cfg_2</CfgParent>
+			<Cfg_2>true</Cfg_2>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=Sistema Analisis;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+			<VerInfo_Locale>3082</VerInfo_Locale>
+			<DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;$(DCC_Namespace)</DCC_Namespace>
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_UsePackage>vcl;rtl;vclx;vclactnband;vclshlctrls;vclie;xmlrtl;inetdbbde;inet;inetdbxpress;dbrtl;vcldb;adortl;bdertl;vcldbx;VclSmp;dxCoreD7;dxGDIPlusD7;cxLibraryVCLD7;cxEditorsVCLD7;dxThemeD7;cxDataD7;cxExtEditorsVCLD7;dxEdtrD7;dxELibD7;dxDockingD7;dxComnD7;dxsbD7;dxBarD7;dxBarDBNavD7;cxBarEditItemD7;dxBarExtDBItemsD7;dxBarExtItemsD7;dxRibbonD7;dxNavBarD7;dxLayoutControlD7;dxLayoutControlcxEditAdaptersD7;cxSpreadSheetVCLD7;EQTLD7;ECQDBCD7;EQDBTLD7;cxTreeListD7;cxTreeListdxBarPopupMenuD7;EQGridD7;dxGrEdD7;dxExELD7;cxPageControlVCLD7;cxGridD7;cxVerticalGridVCLD7;dxFlowChartD7;cxSchedulerD7;cxSchedulerGridD7;dxorgcD7;dxdborD7;dxMasterViewD7;cxWebD7;cxWebPascalScriptD7;cxWebSnapD7;webdsnap;websnap;tee;cxWebTeeChartD7;teeui;teedb;dxmdsD7;dxdbtrD7;dxtrmdD7;dxPSCoreD7;dxPSLnksD7;dxPScxCommonD7;dxPScxExtCommonD7;dxPScxPCProdD7;dxPScxSSLnkD7;dxPScxTL5LnkD7;dxPScxVGridLnkD7;dxPSTeeChartD7;dxPSDBTeeChartD7;dxPSdxDBTVLnkD7;dxPSdxFCLnkD7;dxPSdxMVLnkD7;dxPSdxOCLnkD7;dxPSdxDBOCLnkD7;dxPsPrVwAdvD7;dxPSTLLnkD7;dxPSdxDBTLLnkD7;dxPSdxDBCtrlLnkD7;dxPSdxInsLnkD7;dxInsD7;dxPSdxOILnkD7;dxObjInsD7;dxPSdxDBGrLnkD7;dxPScxGrid6LnkD7;cxPivotGridD7;cxPivotGridChartD7;cxPivotGridOLAPD7;dxDBEdD7;dxExRwD7;dcldxSkinsCoreD7;dxSkinsCoreD7;dxSkinscxPCPainterD7;dxSkinscxScheduler3PainterD7;dxSkinsdxNavBar2PainterD7;dxSkinsdxDLPainterD7;dxSkinsdxRibbonPainterD7;dxSkinsdxBarPainterD7;dxSkinBlackD7;dxSkinBlueD7;dxSkinSilverD7;dxSkinStardustD7;dxSkinValentineD7;dxSkinXmas2008BlueD7;dxSkinCaramelD7;dxSkinDarkSideD7;dxSkinPumpkinD7;dxSkinCoffeeD7;dxSkinGlassOceansD7;dxSkiniMaginaryD7;dxSkinMcSkinD7;dxSkinLilianD7;dxSkinLiquidSkyD7;dxSkinLondonLiquidSkyD7;dxSkinMoneyTwinsD7;dxSkinOffice2007BlackD7;dxSkinOffice2007BlueD7;dxSkinOffice2007GreenD7;dxSkinOffice2007PinkD7;dxSkinOffice2007SilverD7;dxSkinSummer2008D7;dxSkinSpringTimeD7;dxSpellCheckerD7;acQueryBuilderD7;acQueryBuilderADOD7;acQueryBuilderBDED7;tmsxlsd7;TMSD7;tmswizd7;tmsexd7;dacvcl70;dac70;CRControls70;unidacvcl70;unidac70;$(DCC_UsePackage)</DCC_UsePackage>
+			<DCC_DependencyCheckOutputName>SistemaAnalisis.exe</DCC_DependencyCheckOutputName>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_SymbolReferenceInfo>1</DCC_SymbolReferenceInfo>
+			<DCC_N>true</DCC_N>
+			<DCC_S>false</DCC_S>
+			<DCC_K>false</DCC_K>
+			<DCC_E>false</DCC_E>
+			<DCC_F>false</DCC_F>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win64)'!=''">
+			<Icon_MainIcon>SistemaAnalisis_Icon3.ico</Icon_MainIcon>
+			<Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win32)'!=''">
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<Icon_MainIcon>SistemaAnalisis_Icon3.ico</Icon_MainIcon>
+			<DCC_Namespace>Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+			<VerInfo_Locale>1033</VerInfo_Locale>
+			<Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+			<VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+			<VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+			<VerInfo_Locale>1033</VerInfo_Locale>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="$(MainSource)">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="Umain.pas">
+				<Form>Fmain</Form>
+			</DCCReference>
+			<DCCReference Include="UDM.pas">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Ubancovoces.pas">
+				<Form>Fbancovoces</Form>
+			</DCCReference>
+			<DCCReference Include="Ucasos.pas">
+				<Form>Fcasos</Form>
+			</DCCReference>
+			<DCCReference Include="Uobjanttodos.pas">
+				<Form>Fobjanttodos</Form>
+			</DCCReference>
+			<DCCReference Include="Uclaves.pas">
+				<Form>Fclaves</Form>
+			</DCCReference>
+			<DCCReference Include="Ucomentarios.pas">
+				<Form>FComentarios</Form>
+			</DCCReference>
+			<DCCReference Include="Udescubrimientos.pas">
+				<Form>Fdescubrimientos</Form>
+			</DCCReference>
+			<DCCReference Include="Udoccat.pas">
+				<Form>Fdoccat</Form>
+			</DCCReference>
+			<DCCReference Include="Udoctipos.pas">
+				<Form>Fdoctipos</Form>
+			</DCCReference>
+			<DCCReference Include="UEventos.pas">
+				<Form>FEventos</Form>
+			</DCCReference>
+			<DCCReference Include="Uidiomas.pas">
+				<Form>Fidiomas</Form>
+			</DCCReference>
+			<DCCReference Include="Uinformesorigen.pas">
+				<Form>Finformesorigen</Form>
+			</DCCReference>
+			<DCCReference Include="Umunic.pas">
+				<Form>Fmunic</Form>
+			</DCCReference>
+			<DCCReference Include="Unomdestentreg.pas">
+				<Form>Fnomdestentreg</Form>
+			</DCCReference>
+			<DCCReference Include="Unomformasentreg.pas">
+				<Form>Fnomformasentreg</Form>
+			</DCCReference>
+			<DCCReference Include="Uopiniones.pas">
+				<Form>FOpiniones</Form>
+			</DCCReference>
+			<DCCReference Include="Uorganismos.pas">
+				<Form>Forganismos</Form>
+			</DCCReference>
+			<DCCReference Include="Usectorsocopi.pas">
+				<Form>Fsectorsocopi</Form>
+			</DCCReference>
+			<DCCReference Include="Ucategorias.pas">
+				<Form>Fcategorias</Form>
+			</DCCReference>
+			<DCCReference Include="Utipotrans.pas">
+				<Form>Ftipotrans</Form>
+			</DCCReference>
+			<DCCReference Include="Uusuarioscargo.pas">
+				<Form>Fusuarioscargo</Form>
+			</DCCReference>
+			<DCCReference Include="Uuserest.pas">
+				<Form>Fuserest</Form>
+			</DCCReference>
+			<DCCReference Include="Uverest.pas">
+				<Form>Fverest</Form>
+			</DCCReference>
+			<DCCReference Include="Uvertema.pas">
+				<Form>Fvertema</Form>
+			</DCCReference>
+			<DCCReference Include="Uvertipos.pas">
+				<Form>Fvertipos</Form>
+			</DCCReference>
+			<DCCReference Include="Ulogin.pas">
+				<Form>Flogin</Form>
+			</DCCReference>
+			<DCCReference Include="Uhistoricos.pas">
+				<Form>Fhistoricos</Form>
+			</DCCReference>
+			<DCCReference Include="Ueliminarusuario.pas">
+				<Form>Feliminarusuario</Form>
+			</DCCReference>
+			<DCCReference Include="Umodificarusuario.pas">
+				<Form>Fmodificarusuario</Form>
+			</DCCReference>
+			<DCCReference Include="UcontrolAntecedentes.pas">
+				<Form>FcontrolAntecedentes</Form>
+			</DCCReference>
+			<DCCReference Include="UActualizarDatosGenerales.pas">
+				<Form>FActualizarDatosGenerales</Form>
+			</DCCReference>
+			<DCCReference Include="Uactreuorganos.pas">
+				<Form>Factreuorganos</Form>
+			</DCCReference>
+			<DCCReference Include="Ucrearusuario.pas">
+				<Form>Fcrearusuario</Form>
+			</DCCReference>
+			<DCCReference Include="Uagregarantecedente.pas">
+				<Form>Fagregarantecedente</Form>
+			</DCCReference>
+			<DCCReference Include="Upaises.pas">
+				<Form>Fpaises</Form>
+			</DCCReference>
+			<DCCReference Include="Uservicioagregado.pas">
+				<Form>Fservicioagregado</Form>
+			</DCCReference>
+			<DCCReference Include="UlevantamientosTelef.pas">
+				<Form>FlevantamientosTelef</Form>
+			</DCCReference>
+			<DCCReference Include="UsalidaSIA.pas">
+				<Form>FsalidaSIA</Form>
+			</DCCReference>
+			<DCCReference Include="UActualizarDatosAntecedentes.pas">
+				<Form>FActualizarDatosAntecedentes</Form>
+			</DCCReference>
+			<DCCReference Include="UActualizarDatosLaborales.pas">
+				<Form>FActualizarDatosLaborales</Form>
+			</DCCReference>
+			<DCCReference Include="UactualizarDatosResidenciales.pas">
+				<Form>FActualizarDatosResidenciales</Form>
+			</DCCReference>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">SistemaAnalisis.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">3082</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName">Sistema Analisis</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dcloffice2k160.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dclofficexp160.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+				<ModelSupport>False</ModelSupport>
+				<Platforms>
+					<Platform value="Win64">False</Platform>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+	</Project>

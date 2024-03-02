@@ -1,0 +1,3 @@
+en las provincias faltan en la BD chequeo en las tablas de tx los campos :
+- contenido 
+- fichero contenido
