@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/05/20 13:57:09.343.pas,C:\Documents and Settings\Administrador\Mis documentos\RAD Studio\Projects\Unit1.pas=D:\Proyectos\AAA Accesos\Unit1.pas</Transaction>
+    <Transaction>2011/05/20 13:57:09.343.dfm,C:\Documents and Settings\Administrador\Mis documentos\RAD Studio\Projects\Unit1.dfm=D:\Proyectos\AAA Accesos\Unit1.dfm</Transaction>
+    <Transaction>2011/05/20 13:57:10.796.dproj,C:\Documents and Settings\Administrador\Mis documentos\RAD Studio\Projects\Project1.dproj=D:\Proyectos\AAA Accesos\Project1.dproj</Transaction>
+    <Transaction>2011/05/24 11:19:11.484.dproj,D:\Proyectos\AAA Accesos\Project1.dproj=D:\Proyectos\AAA Accesos\AccesosAAA.dproj</Transaction>
+    <Transaction>2011/05/24 11:27:35.093.pas,D:\Proyectos\AAA Accesos\Unit1.pas=D:\Proyectos\AAA Accesos\Umain.pas</Transaction>
+    <Transaction>2011/05/24 11:27:35.093.dfm,D:\Proyectos\AAA Accesos\Unit1.dfm=D:\Proyectos\AAA Accesos\Umain.dfm</Transaction>
+    <Transaction>2011/05/30 09:27:23.609.pas,D:\Proyectos\AAA Accesos\Unit1.pas=D:\Proyectos\AAA Accesos\UDM.pas</Transaction>
+    <Transaction>2011/05/30 09:27:23.609.dfm,D:\Proyectos\AAA Accesos\Unit1.dfm=D:\Proyectos\AAA Accesos\UDM.dfm</Transaction>
+    <Transaction>2011/05/31 11:06:00.627.pas,D:\PROYECTOS\AAA Accesos\Unit1.pas=D:\PROYECTOS\AAA Accesos\Uthread.pas</Transaction>
+    <Transaction>2011/06/02 13:18:03.528.pas,D:\PROYECTOS\AAA Accesos\Unit1.pas=D:\PROYECTOS\AAA Accesos\UDepurar.pas</Transaction>
+    <Transaction>2011/06/02 13:18:03.528.dfm,D:\PROYECTOS\AAA Accesos\Unit1.dfm=D:\PROYECTOS\AAA Accesos\UDepurar.dfm</Transaction>
+    <Transaction>2011/06/09 12:58:12.453.pas,D:\Proyectos\AAA Accesos\funcionando\Uthread.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

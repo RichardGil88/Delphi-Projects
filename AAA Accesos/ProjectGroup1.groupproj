@@ -1,0 +1,36 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{5F50B84C-6316-4BA0-9483-E74DFCFA23D8}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="AccesosAAA.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="AccesosAAA">
+			<MSBuild Projects="AccesosAAA.dproj"/>
+		</Target>
+		<Target Name="AccesosAAA:Clean">
+			<MSBuild Targets="Clean" Projects="AccesosAAA.dproj"/>
+		</Target>
+		<Target Name="AccesosAAA:Make">
+			<MSBuild Targets="Make" Projects="AccesosAAA.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="AccesosAAA"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="AccesosAAA:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="AccesosAAA:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>
